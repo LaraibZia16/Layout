@@ -2,62 +2,109 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Test</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Interior Design Layout</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-    <!--Container start -->
-    <div class="main">
-        <!-- Main Container start -->
-        <div class="navbar">
-             <!-- navbar start -->
-            <div class="logo"><img src="./image/main-logo.png" alt=""></div>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link active link-dark" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-dark" href="#">Pages</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-dark" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-dark" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-dark" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-dark" href="#">Get Pro</a>
-                </li>
-                <img class="icon" src="./image/icon-removebg-preview.png" alt="">
-              </ul>
-          <!-- navbar End -->
-          <!-- Hero section Start -->
-        <div class="hero">
-            <div class="content .bg-secondary-subtle">
-                <div> <h1 class="fw-bold">Nautical</h1>
-                   <h1 class="fw-bold">Modern Style</h1>
-                   <p class="fw-normal">Suspendisse tempus rhoncus enim pellentesque est vehicula vitae eget. Viverra imperdiet felis sollicitudin pellentesque cursus sit. Feugiat hac porttitor.</p></div>
-                   <button type="button" class="btn btn-outline-secondary">View Project</button>
-                </div>
-                 <div >
-                   <img src="./image/main-banner.jpg" class="img-fluid" alt="...">
-                 </div> 
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+
+        <!-- LOGO IMAGE -->
+        <a class="navbar-brand" href="#">
+            <img src="./image/main-logo.png" alt="Jesse Logo">
+        </a>
+
+        <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+                <a class="nav-link nav-hover" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-hover" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-hover" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-hover" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link nav-hover" href="#">Get Info</a>
+            </li>
+
+            <!-- ICON -->
+            <li class="nav-item ms-3">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+
+<!-- HERO SECTION -->
+<section class="container py-5">
+    <div class="row align-items-center">
+        <div class="col-md-5 hero-text">
+            <h1>Nautical Modern Style</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae.</p>
+            <button class="hero-btn">View Project →</button>
         </div>
-          <!-- Hero section Start -->
+
+        <div class="col-md-7">
+            <img src="./image/main-banner.jpg" class="img-fluid" alt="Interior">
+        </div>
     </div>
-     <!-- Main Container End -->
+</section>
+
+<!-- BRAND LOGOS -->
+<section class="container py-4">
+    <div class="row text-center align-items-center brand-row">
+
+        <div class="col">
+            <img src="./image/brand1.png" alt="Brand" class="brand-img">
+        </div>
+        <div class="col">
+            <img src="./image/brand2.png" alt="Brand" class="brand-img">
+        </div>
+        <div class="col">
+            <img src="./image/brand3.png" alt="Brand" class="brand-img">
+        </div>
+        <div class="col">
+            <img src="./image/brand4.png" alt="Brand" class="brand-img">
+        </div>
+        <div class="col">
+            <img src="./image/brand5.png" alt="Brand" class="brand-img">
+        </div>
+
     </div>
- <!-- Container End -->
-</div>
+</section>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" ></script>
+<!-- ABOUT SECTION -->
+<section class="container py-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <img src="./image/section-image.png" class="img-fluid" alt="Room">
+        </div>
+
+        <div class="col-md-6">
+            <h3 class="about-title">About Me</h3>
+            <p>
+                Everything I designed, fine things are designed well. Professional passion
+                inspires creative ideas and thoughtful solutions.
+            </p>
+            <button class="hero-btn">Read More</button>
+        </div>
+    </div>
+</section>
+<!-- SERVICES SECTION -->
+ 
+
 </body>
 </html>
