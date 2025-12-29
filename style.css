@@ -79,3 +79,26 @@ body {
 .brand-img:hover {
     opacity: 1;
 }
+.section-title {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.circle-text {
+    background: #f4b400;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.portfolio-img {
+    transition: 0.3s;
+}
+
+.portfolio-img:hover {
+    transform: scale(1.05);
+}
+.about-p{
+    color: #666;
+}
+
